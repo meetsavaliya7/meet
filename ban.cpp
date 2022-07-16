@@ -12,19 +12,19 @@ public:
     int withdrao_ammnount(int);
 
     int show_balance();
-};
-bank:;bank(int amt)
-{
+
+    bank::bank(int amt)
+    {
     bal = amt;
-}    
-int bank::deposit_ammout(int d_amt)
-{
+    }    
+        int bank::deposit_ammout(int d_amt)
+    {
 
     bal += of_amt;
     return of_amt;
 
-}
-int bank::deposit_ammout(int w_amt)
+    }
+        int bank::deposit_ammout(int w_amt)
 
     {
         int d_amt;
@@ -135,4 +135,6 @@ int main()
             cout << "INVALID CHOICE";
         }
     } while (ch != 0);
+
+
 }
